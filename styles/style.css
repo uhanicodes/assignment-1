@@ -4,7 +4,13 @@
 
 nav {
     display: flex;
+    align-items: center;
     justify-content: space-around;
+}
+
+nav h1 {
+    font-size: 34px;
+    font-weight: 600;
 }
 
 /* button styles */
@@ -15,4 +21,10 @@ button {
     border-radius: 10px;
     border-style: none;
     padding: 12px 36px;
+}
+
+/* logo */
+
+.logo {
+    color: #4E47FF;
 }
