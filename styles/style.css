@@ -80,3 +80,30 @@ button {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
+
+.get-in {
+    display: flex;
+    gap: 115px;
+}
+
+footer {
+    text-align: center;
+    padding: 104px 450px;
+}
+
+footer p {
+    color: #8987A1;
+}
+
+.info {
+    display: flex;
+    gap: 48px;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.big {
+    font-size: 100px;
+    font-weight: 800;
+    padding-bottom: 8px;
+}
