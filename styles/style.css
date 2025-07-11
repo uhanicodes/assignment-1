@@ -26,6 +26,14 @@ header div h1 {
 
 .action {
     display: flex;
+    gap: 220px;
+    margin-left: 140px;
+    margin-right: 160px;
+}
+
+
+.action-img {
+    border-radius: 48px;
 }
 /* button styles */
 
