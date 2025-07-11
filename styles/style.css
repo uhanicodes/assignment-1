@@ -31,7 +31,6 @@ header div h1 {
     margin-right: 160px;
 }
 
-
 .action-img {
     border-radius: 48px;
 }
@@ -49,4 +48,35 @@ button {
 
 .logo {
     color: #4E47FF;
+}
+
+.users {
+    text-align: center;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    max-width: 1140px;
+}
+
+.users h3 {
+    font-size: 38px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+    padding-bottom: 40px;
+}
+
+.users .feedback {
+    display: flex;
+    justify-content: space-around;
+    gap: 158px;
+}
+
+.users h1 {
+    color: rgba(78, 71, 255, 1);
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.users p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
