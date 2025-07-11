@@ -13,6 +13,20 @@ nav h1 {
     font-weight: 600;
 }
 
+header div h1 {
+    font-size: 65px;
+    font-weight: bold;
+    padding-bottom: 85px;
+}
+
+.banner {
+    text-align: center;
+    padding: 150px 250px;
+}
+
+.action {
+    display: flex;
+}
 /* button styles */
 
 button {
