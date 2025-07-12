@@ -119,7 +119,7 @@ button {
 
 footer {
     text-align: center;
-    padding: 104px 450px;
+    margin: 104px 455px;
 }
 
 footer p {
@@ -153,5 +153,5 @@ footer p {
 .big {
     font-size: 100px;
     font-weight: 800;
-    margin-top: 8px;
+    margin-bottom: 8px;
 }
