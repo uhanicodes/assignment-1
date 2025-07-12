@@ -89,6 +89,7 @@ button {
 }
 
 .users .feedback {
+    margin-top: 40px;
     display: flex;
     justify-content: space-around;
     gap: 158px;
@@ -109,6 +110,11 @@ button {
     display: flex;
     gap: 115px;
     margin-top: 92px;
+}
+
+.get-in h1 {
+    font-size: 97px;
+    font-weight: bold;
 }
 
 footer {
