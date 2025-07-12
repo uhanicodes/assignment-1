@@ -47,6 +47,12 @@ main {
     margin-right: 160px;
 }
 
+.action-content {
+    padding-top: 62px;
+    padding-bottom: 62px;
+    padding-right: 220px;
+}
+
 .action-img {
     border-radius: 48px;
 }
