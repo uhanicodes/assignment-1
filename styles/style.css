@@ -79,6 +79,7 @@ button {
     border-radius: 24px;
     max-width: 1140px;
     margin-top: 116px;
+    padding: 50px 142px;
 }
 
 .users h3 {
@@ -88,8 +89,7 @@ button {
     padding-bottom: 40px;
 }
 
-.users .feedback {
-    margin-top: 40px;
+.feedback {
     display: flex;
     justify-content: space-around;
     gap: 158px;
