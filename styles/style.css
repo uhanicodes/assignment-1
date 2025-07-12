@@ -3,8 +3,13 @@
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
+  
   font-variation-settings:
     "wdth" 100;
+}
+
+header, main {
+    background-color: #F5F8FF;
 }
 
 .header {
@@ -122,7 +127,7 @@ button {
 
 .get-in {
     display: flex;
-    gap: 115px;
+    /* gap: 115px; */
     margin-top: 92px;
 }
 
@@ -131,27 +136,31 @@ button {
     font-weight: bold;
 }
 
-.get-in div {
+.get-in .form {
     margin-top: 71px;
     margin-bottom: 71px;
-    margin-left: 115px;
+    width: 497px;
+    height: 490px;
+    /* margin-left: 115px; */
 }
 
 .get-in button {
     margin-top: 19px;
+    width: 497px;
 }
 
-footer {
-    text-align: center;
-    margin: 104px 455px;
+.form-block-e .form-block-t .form-block-m {
+    margin-bottom: 19px;
 }
 
-footer p {
-    color: #8987A1;
+form input[type='text'], form input[type='email'] {
+    height: 70px;
+    width: 100%;
 }
 
-.get-in label {
-    padding-bottom: 10px;
+textarea {
+    height: 135px;
+    width: 100%;
 }
 
 .get-in {
@@ -159,12 +168,18 @@ footer p {
     padding-left: 150px;
 }
 
+.get-in h1 {
+    margin-right: 115px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
 .get-in input[type='text'], .get-in input[type='email'], .get-in textarea {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     display: block;
     width: 100%;
-    padding-bottom: 19px;
+    /* padding-bottom: 19px; */
 }
 
 .info {
@@ -172,6 +187,21 @@ footer p {
     gap: 48px;
     align-content: center;
     justify-content: space-around;
+}
+
+footer {
+    text-align: center;
+    margin: 104px 455px;
+    background-color: #FFFFFF;
+}
+
+footer p {
+    color: #8987A1;
+}
+
+form {
+    margin-top: 71px;
+    margin-bottom: 71px;
 }
 
 .big {
